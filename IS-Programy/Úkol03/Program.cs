@@ -18,7 +18,13 @@ while (again == "a")
          // Vstup číselné hodnoty do programu - lépe řešené
             Console.Write("Zadejte první číslo řady (celé číslo): ");
     }
-   
+    
+    Console.Write("Zadejte první číslo řady (celé číslo): ");
+    int first;
+    while (!int.TryParse(Console.ReadLine(), out last))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
+    }
 
     Console.Write("Zadejte poslední číslo řady (celé číslo): ");
     int last;
@@ -27,13 +33,24 @@ while (again == "a")
         Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
     }
     
-    Console.Write("Zadejte poslední číslo řady (celé číslo): ");
+    Console.Write("Zadejte diferenci (celé číslo): ");
     int step;
     while (!int.TryParse(Console.ReadLine(), out last))
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte difergenci znovu: ");
+        Console.Write("Nezadali jste celé číslo. Zadejte diferenci znovu: ");
     }
-
+    
+    //Výpis zadaných hodnot
+    Console.WriteLine();
+    Console.WriteLine("===============================");
+    Console.WriteLine("Zadali jste tyto hodnoty:");
+    Console.WriteLine("První číslo řady: {0}", first); 
+    Console.WriteLine("Další poslední řady: {1}", last);
+    Console.WriteLine("Poslední číslo řady: {2}", step);
+    Console.WriteLine("===============================");
+    Console.WriteLine("První číslo: {0}; Poslední číslo: {1}; Diference: {2}", first, last, step);
+    Console.WriteLine("===============================");
+    Console.WriteLine();
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
