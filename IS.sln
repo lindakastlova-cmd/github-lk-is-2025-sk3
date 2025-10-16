@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Úkol04b", "IS-Programy\Úk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Úkol05", "IS-Programy\Úkol05\Úkol05.csproj", "{C17347C3-6C26-49A8-ACF6-4916D982F369}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Základní kód", "IS-Programy\Základní kód\Základní kód.csproj", "{8B16DC1D-1170-4E7E-86B5-3F77B60319EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C17347C3-6C26-49A8-ACF6-4916D982F369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C17347C3-6C26-49A8-ACF6-4916D982F369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C17347C3-6C26-49A8-ACF6-4916D982F369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B16DC1D-1170-4E7E-86B5-3F77B60319EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B16DC1D-1170-4E7E-86B5-3F77B60319EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B16DC1D-1170-4E7E-86B5-3F77B60319EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B16DC1D-1170-4E7E-86B5-3F77B60319EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
