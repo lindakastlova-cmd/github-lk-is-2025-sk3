@@ -14,32 +14,26 @@ while (again == "a")
     //Console.Write("Zadejte první číslo řady: ");
     //int first = int.Parse(Console.ReadLine());
 
-
-    // Vstup číselné hodnoty do programu - lépe řešené
-    Console.Write("Zadejte první číslo řady (celé číslo): ");
-
-    int input;
-    while (!int.TryParse(Console.ReadLine(), out input))
-        Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");
-
-    var temp = input;
-    var result = 0;
-    var numberCount = 0;
-
-    while (temp > 0)
     {
-        var part = temp % 10;
-        var resultSave = result;
+         // Vstup číselné hodnoty do programu - lépe řešené
+            Console.Write("Zadejte první číslo řady (celé číslo): ");
+    }
+   
 
-        temp /= 10;
-        numberCount++;
-        result += part;
-
-        Console.WriteLine(
-            $"Při interaci {numberCount} jsem k číslu {resultSave} přičetl {part} a to dělá výsledek {result} a zbývá  {temp} ke zpracování");
+    Console.Write("Zadejte poslední číslo řady (celé číslo): ");
+    int last;
+    while (!int.TryParse(Console.ReadLine(), out last))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
+    }
+    
+    Console.Write("Zadejte poslední číslo řady (celé číslo): ");
+    int step;
+    while (!int.TryParse(Console.ReadLine(), out last))
+    {
+        Console.Write("Nezadali jste celé číslo. Zadejte difergenci znovu: ");
     }
 
-    Console.WriteLine($"Součet všechn {numberCount} číslic ze základu {input} je {result}!");
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
