@@ -21,7 +21,7 @@ while (again == "a")
     
     Console.Write("Zadejte první číslo řady (celé číslo): ");
     int first;
-    while (!int.TryParse(Console.ReadLine(), out last))
+    while (!int.TryParse(Console.ReadLine(), out first))
     {
         Console.Write("Nezadali jste celé číslo. Zadejte poslední číslo řady znovu: ");
     }
@@ -35,7 +35,7 @@ while (again == "a")
     
     Console.Write("Zadejte diferenci (celé číslo): ");
     int step;
-    while (!int.TryParse(Console.ReadLine(), out last))
+    while (!int.TryParse(Console.ReadLine(), out step))
     {
         Console.Write("Nezadali jste celé číslo. Zadejte diferenci znovu: ");
     }
@@ -45,8 +45,8 @@ while (again == "a")
     Console.WriteLine("===============================");
     Console.WriteLine("Zadali jste tyto hodnoty:");
     Console.WriteLine("První číslo řady: {0}", first); 
-    Console.WriteLine("Další poslední řady: {1}", last);
-    Console.WriteLine("Poslední číslo řady: {2}", step);
+    Console.WriteLine("Další poslední řady: {0}", last);
+    Console.WriteLine("Poslední číslo řady: {0}", step);
     Console.WriteLine("===============================");
     Console.WriteLine("První číslo: {0}; Poslední číslo: {1}; Diference: {2}", first, last, step);
     Console.WriteLine("===============================");
