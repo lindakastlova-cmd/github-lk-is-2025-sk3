@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Základní kod", "Základn�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program003a-serazeni-dvou-cisel", "IS-Programy\program003a-serazeni-dvou-cisel\program003a-serazeni-dvou-cisel.csproj", "{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program003b-nejvetsi-ze-tri-cisel", "program003b-nejvetsi-ze-tri-cisel\program003b-nejvetsi-ze-tri-cisel.csproj", "{D715DE1E-3766-4987-B7D2-BA6014ADAEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D715DE1E-3766-4987-B7D2-BA6014ADAEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D715DE1E-3766-4987-B7D2-BA6014ADAEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D715DE1E-3766-4987-B7D2-BA6014ADAEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D715DE1E-3766-4987-B7D2-BA6014ADAEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
