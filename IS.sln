@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program002a-soucet-cifer", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Základní kod", "Základní kod\Základní kod.csproj", "{61A207BF-91B7-48AE-AEFE-733B07D69E22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program003a-serazeni-dvou-cisel", "IS-Programy\program003a-serazeni-dvou-cisel\program003a-serazeni-dvou-cisel.csproj", "{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DD5C7A-3A40-4114-9442-7B6FD2553FF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
