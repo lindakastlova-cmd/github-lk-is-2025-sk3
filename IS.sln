@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Úkol05", "IS-Programy\Úko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program002a-soucet-cifer", "IS-Programy\program002a-soucet-cifer\program002a-soucet-cifer.csproj", "{0AAEAE21-8025-461C-BEC3-9A88534F5EAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Základní kod", "Základní kod\Základní kod.csproj", "{61A207BF-91B7-48AE-AEFE-733B07D69E22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,11 @@ Global
 		{0AAEAE21-8025-461C-BEC3-9A88534F5EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AAEAE21-8025-461C-BEC3-9A88534F5EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AAEAE21-8025-461C-BEC3-9A88534F5EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A207BF-91B7-48AE-AEFE-733B07D69E22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
