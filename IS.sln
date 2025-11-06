@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program003b-nejvetsi-ze-tri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program004a-obdelnik", "IS-Programy\program004a-obdelnik\program004a-obdelnik.csproj", "{9FDA341F-4DDE-4793-9355-CD9151DDEDC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program005-generator", "IS-Programy\program005-generator\program005-generator.csproj", "{6B7024EB-EF26-48C7-8B65-FCE785D43AFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,10 @@ Global
 		{9FDA341F-4DDE-4793-9355-CD9151DDEDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FDA341F-4DDE-4793-9355-CD9151DDEDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FDA341F-4DDE-4793-9355-CD9151DDEDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7024EB-EF26-48C7-8B65-FCE785D43AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7024EB-EF26-48C7-8B65-FCE785D43AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7024EB-EF26-48C7-8B65-FCE785D43AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7024EB-EF26-48C7-8B65-FCE785D43AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
