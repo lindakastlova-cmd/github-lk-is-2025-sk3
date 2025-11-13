@@ -56,7 +56,7 @@ while (again == "a")
     int negativeNumbers = 0;
     int zeros = 0;
     
-    //Rozdělování na sudá a lichá
+    //Rozdělování na sudá a lichá čísla
     int evenNumbers = 0;
     int oddNumbers = 0;
 
