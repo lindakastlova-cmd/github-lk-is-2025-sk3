@@ -50,52 +50,15 @@ while (again == "a")
     
     Console.WriteLine();
     Console.WriteLine("Náhodná čísla: ");
-
-    //Rozdělování na kladná, záporná a nuly
-    int positiveNumbers = 0;
-    int negativeNumbers = 0;
-    int zeros = 0;
     
-    //Rozdělování na sudá a lichá čísla
-    int evenNumbers = 0;
-    int oddNumbers = 0;
 
     for(int i = 0; i < n; i++)
     {
         myRandNumbers[i] = myRandNumber.Next(lowerBound, upperBound + 1);
         Console.Write("{0}; ", myRandNumbers[i]);
-        
-        //Kladná a záporná čísla a nuly
-        /*if(myRandNumbers[i] > 0)
-            positiveNumbers++;
-        if (myRandNumbers[i] < 0)
-            negativeNumbers++;
-        if (myRandNumbers[i] == 0)
-            zeros++;*/
-        
-        if(myRandNumbers[i] > 0)
-            positiveNumbers++;
-        else if(myRandNumbers[i] < 0)
-            negativeNumbers++;
-        else zeros++;
-        
-        //Sudá a lichá čísla
-        if(myRandNumbers[i] % 2 == 0)
-            evenNumbers++;
-        else oddNumbers++;
     }
     
-    Console.WriteLine();
-    Console.WriteLine("===========================================");
-    Console.WriteLine("===========================================");
-    Console.WriteLine("Počet záporných čísel: {0}", negativeNumbers);
-    Console.WriteLine("Počet kladných čísel: {0}", positiveNumbers);
-    Console.WriteLine("Počet nul: {0}", zeros);
-    Console.WriteLine("===========================================");
-    Console.WriteLine("Počet sudých čísel: {0}", evenNumbers);
-    Console.WriteLine("Počet lichých čísel: {0}", oddNumbers);
-    Console.WriteLine("===========================================");
-    Console.WriteLine("===========================================");
+   
     
     // Hledání maxima, pozice maxima, minima a pozice minima
     int max = myRandNumbers[0];
