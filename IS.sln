@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program005-generator", "IS-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program006a-max-min", "program006a-max-min\program006a-max-min.csproj", "{21C1598C-E91F-4AA4-8605-A029A047F432}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program007a-bubble-sort", "IS-Programy\program007a-bubble-sort\program007a-bubble-sort.csproj", "{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{21C1598C-E91F-4AA4-8605-A029A047F432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21C1598C-E91F-4AA4-8605-A029A047F432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21C1598C-E91F-4AA4-8605-A029A047F432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
