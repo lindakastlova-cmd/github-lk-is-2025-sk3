@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program006a-max-min", "prog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program007a-bubble-sort", "IS-Programy\program007a-bubble-sort\program007a-bubble-sort.csproj", "{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program007b-bubble-sort-obrazec", "IS-Programy\program007b-bubble-sort-obrazec\program007b-bubble-sort-obrazec.csproj", "{C356959F-BD1F-4917-A5DA-2BFACF2C0038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,10 @@ Global
 		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C61F9E-DB77-4F32-8E41-D9AAF6FEEF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
