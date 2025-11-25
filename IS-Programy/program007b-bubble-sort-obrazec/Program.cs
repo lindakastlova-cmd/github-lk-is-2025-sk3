@@ -47,7 +47,7 @@ while (again == "a")
     
     //Příprava pro generování náhodných čísel
     //Random myRandNumber = new Random(); 
-    Random myRandNumber = new Random(25); 
+    Random randomGenerator = new Random(25); 
     
     
     Console.WriteLine();
@@ -56,7 +56,7 @@ while (again == "a")
   
     for(int i = 0; i < n; i++)
     {
-        myRandNumbers[i] = myRandNumber.Next(lowerBound, upperBound + 1);
+        myRandNumbers[i] = randomGenerator.Next(lowerBound, upperBound + 1);
         Console.Write("{0}; ",myRandNumbers[i]);
     }
 
@@ -98,12 +98,12 @@ while (again == "a")
     
     Console.WriteLine();
     Console.WriteLine("Druhé největší čílo: ");
-    for (int i = 0; i < n - 2; i++)
-    {
-        Console.Write("{0}", myRandNumbers[i-2]);
-    }
 
-    
+    int secondBiggest = myRandNumbers[1];
+    Console.Write("{0}", secondBiggest);
+    Console.WriteLine();
+
+    /*
     Console.WriteLine();
     Console.WriteLine("============================================");
     Console.WriteLine("Počet porovnání: {0}", compare);
@@ -111,19 +111,22 @@ while (again == "a")
     Console.WriteLine();
     Console.WriteLine();
     Console.WriteLine("Čas potřebný na seřazení čísel pomocí BS: {0}", myStopwatch.Elapsed);
+     */
+     
+    //Vykreslení obdelníku na základě druhého největšího čísla
+    int height = secondBiggest;
+    int width = secondBiggest / 2;
     
-    //Vykreslení obdelníku na základě největšího čísla
-    int  i = 0;
-    int max = myRandNumbers[i];
-    int height = i;
-    int width = i;
-    for(int i = 0; i <= height; i++) {
-        for (int j = 1; j <= width; j++)
+    Console.WriteLine($"{height} h a {width} w");
+    
+    for(int i = 0; i < height; i++) {
+        for (int j = 0; j < width; j++)
         {
             Console.Write("* ");
         }
         Console.WriteLine();
     }
+    
     
     Console.WriteLine();
     Console.WriteLine();
