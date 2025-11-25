@@ -119,10 +119,21 @@ while (again == "a")
     
     Console.WriteLine($"{height} h a {width} w");
     
-    for(int i = 0; i < height; i++) {
-        for (int j = 0; j < width; j++)
+    for(int row = 0; row < height; row++) {
+        for (int column = 0; column < width; column++)
         {
-            Console.Write("* ");
+            if (row < 2 || row >= height - 2)
+            {
+                Console.Write("* ");   
+            }
+            else if (column == 0 || column == width - 1)
+            {
+                Console.Write("* ");
+            }
+            else
+            {
+                Console.Write("  ");
+            }
         }
         Console.WriteLine();
     }
