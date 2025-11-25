@@ -87,7 +87,7 @@ while (again == "a")
     Console.WriteLine("============================================");
     Console.WriteLine("Seřazená pole:");
     Console.WriteLine();
-    for (int i = 0; i < n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         Console.Write("{0}; ", myRandNumbers[i]);
     }
