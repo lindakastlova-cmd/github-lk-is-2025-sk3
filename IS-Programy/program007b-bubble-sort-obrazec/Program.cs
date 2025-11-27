@@ -93,7 +93,6 @@ while (again == "a")
     }
 
     //Nalezení druhého největšího čísla
-    //for(int i = 0; i < n - 2; i++)
   
     
     Console.WriteLine();

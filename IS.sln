@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program007a-bubble-sort", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program007b-bubble-sort-obrazec", "IS-Programy\program007b-bubble-sort-obrazec\program007b-bubble-sort-obrazec.csproj", "{C356959F-BD1F-4917-A5DA-2BFACF2C0038}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program008-array-reversing", "IS-Programy\program008-array-reversing\program008-array-reversing.csproj", "{79CA3B45-BBCB-4146-AA23-D0AB97E0BF7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,10 @@ Global
 		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C356959F-BD1F-4917-A5DA-2BFACF2C0038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CA3B45-BBCB-4146-AA23-D0AB97E0BF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CA3B45-BBCB-4146-AA23-D0AB97E0BF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CA3B45-BBCB-4146-AA23-D0AB97E0BF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CA3B45-BBCB-4146-AA23-D0AB97E0BF7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
